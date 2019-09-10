@@ -1076,7 +1076,7 @@ PennController("experiment" ,
       newImage ("frogshadowonefrogonstage", "frogshadowonefrogonstage.png")
          .print()
 	       ,
-	       	newAudio("frogsoundsshort", "frogsoundsshort.mp3")
+	       	newAudio("frogsounds2sec", "frogsounds2sec.mp3")
 		.play()
 	       ,
 	       newKey(" ")
