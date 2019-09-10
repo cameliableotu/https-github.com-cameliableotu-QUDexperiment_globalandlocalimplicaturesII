@@ -286,7 +286,7 @@ PennController("introductionanimals" ,
 PennController("introductionanimals" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> and a group of three cows. </p>")
+	       newText ("<p> And a group of three cows. </p>")
 	    ,
 	                  
 	     newImage ("threecows", "threecows.png")
