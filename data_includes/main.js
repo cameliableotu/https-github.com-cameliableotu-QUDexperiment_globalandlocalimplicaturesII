@@ -111,7 +111,7 @@ PennController("trial" ,
 	       ,
 	       newText("<p> And two pairs of green bunnies. </p>"),
 	       
-	       newImage ("foursmallgreenbunniessmall", "foursmallpinkbunniessmall.png")
+	       newImage ("foursmallgreenbunniessmall", "foursmallgreenbunniessmall.png")
 	       .print ()
 	       ,
 	       newAudio("bunnysounds", "bunnysounds.mp3")
@@ -127,7 +127,10 @@ PennController("trial2" ,
 	    
 	       ,
 	       newText 
-	       ("<p> All the bunnies go behind the curtain. Then the pink bunnies come in front of the curtain. </p>")
+	       ("<p> All the bunnies go behind the curtain. </p>")
+	       ,
+	       newText
+	       ("<p> Then the pink bunnies come in front of the curtain. </p>")
 	       ,
 	       newText ("<p> The baby dragon sees the following shadows. </p>"),
 	      
@@ -561,7 +564,7 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("dogshadowonedogonstage", "dogshadowonedogonstage.png")
+		newImage ("dogshadowscenario1", "dogshadowscenario1.png")
                .print ()
 		,
 		newText ("<p> Baby Dragon: It is possible that some dogs are blue.</p>")
@@ -848,9 +851,9 @@ newSelector()
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Now let's see who the shadow belongs to. Pam-pam! It's the blue dog! </p>")
+	       newText ("<p> Now let's see who the shadows belong to. Pam-pam! It's the blue dogs! </p>")
 	         ,         
-	     newImage ("bluedogonstage.jpg")
+	     newImage ("fourbluedogscurtainsmall.png")
                .print ()
 	       ,
 	       	newAudio("barking", "barking.mp3")
