@@ -101,7 +101,7 @@ PennController("trial" ,
 	    
 	       ,
             newText ("<p> Now let's see how you manage. Let's meet some nice bunnies. </p> "),
-	       newText("<p> Two couples of pink bunnies. </p>"),
+	       newText("<p> Two pairs of pink bunnies. </p>"),
 	       
 	       newImage ("foursmallpinkbunniessmall", "foursmallpinkbunniessmall.png")
 	       .print ()
@@ -109,7 +109,7 @@ PennController("trial" ,
 	       newAudio("bunnysounds", "bunnysounds.mp3")
 		.play()
 	       ,
-	       newText("<p> And two couples of green bunnies. </p>"),
+	       newText("<p> And two pairs of green bunnies. </p>"),
 	       
 	       newImage ("foursmallgreenbunniessmall", "foursmallpinkbunniessmall.png")
 	       .print ()
@@ -131,7 +131,7 @@ PennController("trial2" ,
 	       ,
 	       newText ("<p> The baby dragon sees the following shadows. </p>"),
 	      
-	       newImage ("fourbunnyshadowssmall", "fourbunnyshadowssmall.png")
+	       newImage ("bunnyshadowscenario", "bunnyshadowscenario.png")
 	       .print ( )
 	       ,
 	       newAudio("bunnysounds", "bunnysounds.mp3")
@@ -174,7 +174,7 @@ PennController("trialbunny" ,
 	       newText 
 	       ("<p> Now let's see how you do it on your own. The baby dragon sees the following shadows. To reward the dragon, just click on the apple you want to give him. </p>"),
 	      
-	       newImage ("fourbunnyshadowssmall", "fourbunnyshadowssmall.png")
+	       newImage ("bunnyshadowscenario", "bunnyshadowscenario.png")
 	       .print ( )
 	       ,
 	       newAudio("bunnysounds", "bunnysounds.mp3")
@@ -211,7 +211,7 @@ PennController("trialbunny2" ,
 	        .print()
 	    
 	       ,
-	        newImage ("fourbunnyshadowssmall", "fourbunnyshadowssmall.png")
+	        newImage ("bunnyshadowscenario", "bunnyshadowscenario.png")
 	       .print ( )
 	       ,
 	       newText ("<p> Baby Dragon: Some bunnies behind the shadows are green. </p>")
