@@ -73,7 +73,7 @@ PennController("details" ,
 	    defaultText
 	        .print()
 	       ,
-  newText ("<p> The baby dragon has to describe what he thinks is behind the shadow. </p>")
+  newText ("<p> The baby dragon has to describe what he thinks is behind the shadows. </p>")
 	       ,
    newText ("<p> If what he says is right, you have to reward the baby dragon with a big apple. </p>"),
    newText ("<p> If what he says is wrong, you'll just give him a small apple.  </p>")
