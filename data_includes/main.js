@@ -56,7 +56,7 @@ PennController("details" ,
 	        .print()
 	    
 	       ,
-newText ("<p> Now Merlin is playing the shadow game with a cute baby dragon, who has to guess whose animal the shadow belongs to. </p>")
+newText ("<p> Now Merlin is playing the shadow game with a cute baby dragon, who has to guess whose animals the shadows belong to. </p>")
 	,
   newText ("<p> Alongside the shadow, the images show all the animals in the game on the side, as well as the animals which are in front of the curtain. </p>")
 ,
@@ -100,8 +100,18 @@ PennController("trial" ,
 	        .print()
 	    
 	       ,
-            newText ("<p> Now let's see how you manage. Let's meet a very cute bunny. </p> "),
-	       newImage ("smallpinkbunny", "smallpinkbunny.png")
+            newText ("<p> Now let's see how you manage. Let's meet some nice bunnies. </p> "),
+	       newText("<p> Two couples of pink bunnies. </p>"),
+	       
+	       newImage ("foursmallpinkbunniessmall", "foursmallpinkbunniessmall.png")
+	       .print ()
+	       ,
+	       newAudio("bunnysounds", "bunnysounds.mp3")
+		.play()
+	       ,
+	       newText("<p> And two couples of green bunnies. </p>"),
+	       
+	       newImage ("foursmallgreenbunniessmall", "foursmallpinkbunniessmall.png")
 	       .print ()
 	       ,
 	       newAudio("bunnysounds", "bunnysounds.mp3")
@@ -117,17 +127,17 @@ PennController("trial2" ,
 	    
 	       ,
 	       newText 
-	       ("<p> Hop he goes behind the curtain. The baby dragon sees the following shadow. </p>"),
+	       ("<p> All the pink bunnies go behind the curtain. The baby dragon sees the following shadows. </p>"),
 	      
-	       newImage ("bunnyshadow2", "bunnyshadowallbunnies.png")
+	       newImage ("fourbunnyshadowssmall", "fourbunnyshadowssmall.png")
 	       .print ( )
 	       ,
 	       newAudio("bunnysounds", "bunnysounds.mp3")
 		.play()
 	       ,
-	       newText ("<p> The baby dragon says: It is a mouse. </p>")
+	       newText ("<p> The baby dragon says: Some bunnies behind the shadows are pink. </p>")
 	       ,
-	       newText ("<p> What the baby dragon said is wrong. The shadow does not belong to a mouse, but to a bunny. </p>"),
+	       newText ("<p> What the baby dragon said is wrong. None of the bunnies behind the shadows are pink. </p>"),
 	       newText ("<p> Because of this, you will give the baby dragon a small apple, not a big apple. </p>"),
 	       newText ("<p> To reward the dragon, you will click on the apple which is his reward, in this case, the small apple.</p>")
 	       ,
@@ -160,7 +170,7 @@ PennController("trialbunny" ,
 	    
 	       ,
 	       newText 
-	       ("<p> Now let's see how you do it on your own. The baby dragon sees the following shadow. To reward the dragon, just click on the apple you want to give him. </p>"),
+	       ("<p> Now let's see how you do it on your own. The baby dragon sees the following shadows. To reward the dragon, just click on the apple you want to give him. </p>"),
 	      
 	       newImage ("bunnyshadow2", "bunnyshadowallbunnies.png")
 	       .print ( )
@@ -168,7 +178,7 @@ PennController("trialbunny" ,
 	       newAudio("bunnysounds", "bunnysounds.mp3")
 		.play()
 	       ,
-	       newText ("<p> Baby Dragon: It is a cow. </p>")
+	       newText ("<p> Baby Dragon: All bunnies behind the shadows are green. </p>")
 	       ,
 	       newText ("<p> How will you reward the baby dragon? </p>")
 	       ,
@@ -199,12 +209,10 @@ PennController("trialbunny2" ,
 	        .print()
 	    
 	       ,
-	       
-	      
-	       newImage ("bunnyshadow2", "bunnyshadowallbunnies.png")
+	        newImage ("fourbunnyshadowssmall", "fourbunnyshadowssmall.png")
 	       .print ( )
 	       ,
-	       newText ("<p> Baby Dragon: It is a bunny. </p>")
+	       newText ("<p> Baby Dragon: Some bunnies behind the shadows are green. </p>")
 	       ,
 	       newText ("<p> How will you reward the baby dragon? </p>")
 	       ,
@@ -234,12 +242,21 @@ PennController("introductionanimals" ,
 	    defaultText
 	        .print()
 	    ,
-	    newText ("<p> Now let's get acquainted with the animals in the show. We have got a group of three dogs. </p>")
+	    newText ("<p> Now let's get acquainted with the animals in the show. </p>"),
+	       
+	     newText ("<p> All the animals are very much in love, so you will never see an animal that is by himself/ herself. </p>"),
+	       
+	      newText ("<p> You will only see pairs of animals, couples, where the animals in love face one another. </p>")
+	       ,
+	       
+	       newText ("<p> You will see pairs of dogs, frogs, cows, frogs. </p>")
+	      
 	    ,
 	                  
 	     newImage ("threedogs", "threedogs.png")
                .print ()
 	       ,
+	       
 	       newAudio("barking", "barking.mp3")
 		.play()
 	       ,
@@ -300,6 +317,33 @@ PennController("introductionanimals" ,
 	       
 	      )	
 ;
+PennController("experiment" ,
+	    defaultText
+	        .print()
+	       ,
+  newText ("<p>  We have got dogs: two pairs of blue dogs, and two pairs of yellow dogs. <p>")
+	       newImage("bigapple", "bigapple.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newImage("smallapple", "smallapple.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("bigapple") )
+        .settings.add( 250 , 0 , getImage("smallapple") )
+        .print()
+	       
+	       
+	       
+	       
+	       
+	       
+	       
+	       )
+;
+
 PennController("experiment" ,
 	    defaultText
 	        .print()
