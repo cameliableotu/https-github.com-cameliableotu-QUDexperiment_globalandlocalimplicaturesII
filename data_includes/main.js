@@ -360,7 +360,8 @@ PennController("experiment" ,
 	       ,
   newText ("<p> All the dogs have gone behind the curtain. <p>")
 	       ,
-  newText ("<p> Now a pair of yellow dogs has come in front of the curtain. <p>")     
+  newText ("<p> Now a pair of yellow dogs has come in front of the curtain. <p>")  
+	       ,
   newText ("<p> The baby dragon has to describe what he thinks is behind the shadow. </p>")
 	       ,
    newText ("<p> If what he says is right, you have to reward the baby dragon with a big apple. </p>"),
@@ -658,7 +659,7 @@ PennController("experiment" ,
 	        .print(),
 	       newText ("<p> Oh, look, another pair of yellow dogs has come in front of the curtain. Now there are four yellow dogs in front of the curtain.</p>")
 	          ,    
-	       newText ("<p> So the shadows are not the yellow dogs" </p>")
+	       newText ("<p> So the shadows are not the yellow dogs! </p>")
 			,
       newImage ("dogshadowscenario2", "dogshadowscenario2.png")
          .print()
