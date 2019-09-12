@@ -365,7 +365,7 @@ PennController("experiment" ,
 	       ,
   newText ("<p> Now a pair of yellow dogs has come in front of the curtain. <p>")  
 	       ,
-  newText ("<p> The baby dragon has to describe what he thinks is behind the shadow. </p>")
+  newText ("<p> The baby dragon has to describe what he thinks is behind the shadows. </p>")
 	       ,
    newText ("<p> If what he says is right, you have to reward the baby dragon with a big apple. </p>"),
    newText ("<p> If what he says is wrong, you'll just give him a small apple.  </p>")
