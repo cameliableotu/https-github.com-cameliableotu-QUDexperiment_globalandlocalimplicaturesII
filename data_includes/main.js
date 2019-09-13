@@ -332,12 +332,10 @@ PennController("experiment" ,
   newText ("<p>  We have got dogs: two pairs of blue dogs, and two pairs of yellow dogs. <p>")
 	       ,
 	       newImage("twobluedogssmall", "twobluedogssmall.png")
-        .settings.size(200,200)
-        // .print()
+        .print()
     ,
     newImage("twobluedogssmall", "twobluedogssmall.png")
-        .settings.size(200,200)
-        // .print()
+        .print()
     ,
     newCanvas(450,200)
         .settings.add( 0 , 0 , getImage("twobluedogssmall") )
@@ -346,11 +344,11 @@ PennController("experiment" ,
 ,
 	       
 newImage("twoyellowdogssmall", "twoyellowdogssmall.png")
-        .settings.size(200,200)
+        
         // .print()
     ,
     newImage("twoyellowdogssmall", "twoyellowdogssmall.png")
-        .settings.size(200,200)
+       
         // .print()
     ,
     newCanvas(450,200)
@@ -876,15 +874,13 @@ PennController("experiment" ,
 	        .print()
 	       ,
   newText ("<p>  Now let's do one more guessing game with the dogs. </p>"),
-	       newText ("<p> We have got dogs: two pairs of blue dogs, and two pairs of yellow dogs. <p>")
+	       newText ("<p> We have got two pairs of blue dogs, and two pairs of yellow dogs. <p>")
 	       ,
 	       newImage("twobluedogssmall", "twobluedogssmall.png")
-        .settings.size(200,200)
-        // .print()
+        .print()
     ,
     newImage("twobluedogssmall", "twobluedogssmall.png")
-        .settings.size(200,200)
-        // .print()
+         .print()
     ,
     newCanvas(450,200)
         .settings.add( 0 , 0 , getImage("twobluedogssmall") )
@@ -893,11 +889,9 @@ PennController("experiment" ,
 ,
 	       
 newImage("twoyellowdogssmall", "twoyellowdogssmall.png")
-        .settings.size(200,200)
         // .print()
     ,
     newImage("twoyellowdogssmall", "twoyellowdogssmall.png")
-        .settings.size(200,200)
         // .print()
     ,
     newCanvas(450,200)
@@ -1129,12 +1123,10 @@ PennController("experiment" ,
 	        newText ("<p>  We have got two pairs of purple frogs, and two pairs of red frogs. <p>")
 	       ,
 	       newImage("twopurplefrogssmall", "twopurplefrogssmall.png")
-        .settings.size(200,200)
-        // .print()
+        .print()
     ,
     newImage("tworedfrogssmall", "tworedfrogssmall.png")
-        .settings.size(200,200)
-        // .print()
+         .print()
     ,
     newCanvas(450,200)
         .settings.add( 0 , 0 , getImage("twopurplefrogssmall") )
@@ -1731,12 +1723,10 @@ PennController("experiment" ,
 	       newText ("<p> We have got two pairs of purple frogs, and two pairs of red frogs. <p>")
 	       ,
 	       newImage("twopurplefrogssmall", "twopurplefrogssmall.png")
-        .settings.size(200,200)
-        // .print()
+        .print()
     ,
     newImage("twopurplefrogssmall", "twopurplefrogsssmall.png")
-        .settings.size(200,200)
-        // .print()
+        .print()
     ,
     newCanvas(450,200)
         .settings.add( 0 , 0 , getImage("twopurplefrogssmall") )
@@ -1745,11 +1735,9 @@ PennController("experiment" ,
 ,
 	       
 newImage("tworedfrogssmall", "tworedfrogssmall.png")
-        .settings.size(200,200)
         // .print()
     ,
     newImage("tworedfrogssmall", "tworedfrogssmall.png")
-        .settings.size(200,200)
         // .print()
     ,
     newCanvas(450,200)
