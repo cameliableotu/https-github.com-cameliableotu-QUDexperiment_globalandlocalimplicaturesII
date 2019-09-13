@@ -329,32 +329,33 @@ PennController("experiment" ,
 	    defaultText
 	        .print()
 	       ,
-  newText ("<p> Let's get acquainted with the dogs. </p>"),
-	       newText ("<p> We have got two pairs of blue dogs, and two pairs of yellow dogs. </p>")
+  PennController("experiment" ,
+	    defaultText
+	        .print()
+	       ,
+  newText ("<p>  Now let's get acquainted with the dogs. </p>"),
+	       newText ("<p> We have got two pairs of blue dogs, and two pairs of yellow dogs. <p>")
 	       ,
 	       newImage("twobluedogssmall", "twobluedogssmall.png")
         .print()
-	       ,
-    newCanvas(350,200)
+    ,
+    newCanvas(450,200)
         .settings.add( 0 , 0 , getImage("twobluedogssmall") )
-        .settings.add( 150 , 0 , getImage("twobluedogssmall") )
+        .settings.add( 250 , 0 , getImage("twobluedogssmall") )
         .print()
 ,
 	       
 newImage("twoyellowdogssmall", "twoyellowdogssmall.png")
-        
-        // .print()
-    
+        .print()
     ,
-    newCanvas(350,200)
+    newCanvas(450,200)
         .settings.add( 0 , 0 , getImage("twoyellowdogssmall") )
-        .settings.add( 150 , 0 , getImage("twoyellowdogssmall") )
+        .settings.add( 250 , 0 , getImage("twoyellowdogssmall") )
         .print()  
-	       )
- ,
-	 newText ("<p> All the dogs have  now gone behind the curtain. <p>")
+	       ,
+ newText ("<p> Now all the dogs have gone behind the curtain. <p>")
 ,
-	       newKey(" ")
+	 newKey(" ")
         .wait()
 )
 ;
