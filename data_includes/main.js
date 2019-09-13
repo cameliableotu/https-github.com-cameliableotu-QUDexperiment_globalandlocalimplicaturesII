@@ -1688,7 +1688,7 @@ PennController("experiment" ,
 	       newImage("fourpurplefrogssmall", "fourpurplefrogssmall.png")
         .print()
     ,
-    newImage("fourredfrogssmall", "fourredfrogsssmall.png")
+    newImage("fourredfrogssmall", "fourredfrogssmall.png")
         .print()
     ,
  newText ("<p> Now all the frogs have gone behind the curtain. <p>")
