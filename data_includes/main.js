@@ -325,10 +325,6 @@ PennController("introductionanimals" ,
 	       
 	      )	
 ;
-PennController("experiment" ,
-	    defaultText
-	        .print()
-	       ,
   PennController("experiment" ,
 	    defaultText
 	        .print()
