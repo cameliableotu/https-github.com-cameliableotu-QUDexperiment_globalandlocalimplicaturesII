@@ -329,7 +329,8 @@ PennController("experiment" ,
 	    defaultText
 	        .print()
 	       ,
-  newText ("<p>  We have got dogs: two pairs of blue dogs, and two pairs of yellow dogs. <p>")
+  newText ("<p> Let's get acquainted with the dogs. </p>"),
+	       newText ("<p> We have got two pairs of blue dogs, and two pairs of yellow dogs. </p>")
 	       ,
 	       newImage("twobluedogssmall", "twobluedogssmall.png")
         .print()
