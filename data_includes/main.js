@@ -356,6 +356,7 @@ newImage("twoyellowdogssmall", "twoyellowdogssmall.png")
 ,
 	       newKey(" ")
         .wait()
+)
 ;
 
 PennController("experiment" ,
