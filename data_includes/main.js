@@ -1503,6 +1503,98 @@ newSelector()
 )
 .log( "ID" , getVar("ID") )
 ;
+PennController("experiment" ,
+	    defaultText
+	        .print(),
+	       newText ("<p> Oh, look, another pair of red frogs has come in front of the curtain. Now there are four red frogs in front of the curtain.</p>")
+	          ,    
+	       newText ("<p> So the shadows are not the red frogs! </p>")
+			,
+      newImage ("frogshadowscenario2", "frogshadowscenario2.png")
+         .print()
+    ,
+	       	newAudio("frogsounds2sec", "frogsounds2sec.mp3")
+		.play()
+	       ,
+	       newKey(" ")
+        .wait()
+	       
+	      )
+;
+PennController ("experiment",
+		defaultText
+	        .print(),
+		newText ("<p> Let's look at the shadows, and see what the baby dragon says.</p>")
+		,
+		newImage ("frogshadowscenario2","frogshadowscenario2.png")
+               .print ()
+		,
+		newAudio("frogsounds2sec", "frogsounds2sec.mp3")
+		.play()
+		,
+
+		newText ("<p> Baby Dragon: It is possible that some frogs are purple. </p>")
+	       ,
+		newText ("<p> How will you reward the baby dragon? </p>")
+		,
+	       newImage("bigapple", "bigapple.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newImage("smallapple", "smallapple.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("bigapple") )
+        .settings.add( 250 , 0 , getImage("smallapple") )
+        .print()
+	       ,
+	       // newKey("FJ")
+newSelector()
+    .settings.add( getImage("bigapple") , getImage("smallapple") )
+    .settings.keys(          "F"    ,          "J"   )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID") )
+;
+PennController ("experiment",
+		defaultText
+	        .print(),
+		newImage ("frogshadowscenario2","frogshadowscenario2.png")
+               .print ()
+		,
+		newAudio("frogsounds2sec", "frogsounds2sec.mp3")
+		.play()
+		,
+
+		newText ("<p> Baby Dragon: It is certain that all frogs are purple. </p>")
+	       ,
+		newText ("<p> How will you reward the baby dragon? </p>")
+		,
+	       newImage("bigapple", "bigapple.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newImage("smallapple", "smallapple.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("bigapple") )
+        .settings.add( 250 , 0 , getImage("smallapple") )
+        .print()
+	       ,
+	       // newKey("FJ")
+newSelector()
+    .settings.add( getImage("bigapple") , getImage("smallapple") )
+    .settings.keys(          "F"    ,          "J"   )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID") )
+;
 PennController.SendResults( "send" );
 PennController( "final" ,
 	       newText ("<p> Thank you for your participation! The survey code for MTurk is: rt7w25. Please copy-paste it to MTurk. </p>")
