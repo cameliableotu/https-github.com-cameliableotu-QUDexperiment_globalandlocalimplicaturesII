@@ -132,7 +132,7 @@ PennController("trial2" ,
 	       newText
 	       ("<p> Then the pink bunnies come in front of the curtain. </p>")
 	       ,
-	       newText ("<p> The baby dragon sees the following shadows. </p>"),
+	       newText ("<p> The baby dragon sees the following shadows and has to describe them. </p>"),
 	      
 	       newImage ("bunnyshadowscenario", "bunnyshadowscenario.png")
 	       .print ( )
@@ -140,7 +140,7 @@ PennController("trial2" ,
 	       newAudio("bunnysounds", "bunnysounds.mp3")
 		.play()
 	       ,
-	       newText ("<p> The baby dragon says: Some bunnies behind the shadows are pink. </p>")
+	       newText ("<p> The baby dragon says: Some bunnies are pink. </p>")
 	       ,
 	       newText ("<p> What the baby dragon said is wrong. None of the bunnies behind the shadows are pink. </p>"),
 	       newText ("<p> Because of this, you will give the baby dragon a small apple, not a big apple. </p>"),
@@ -175,7 +175,10 @@ PennController("trialbunny" ,
 	    
 	       ,
 	       newText 
-	       ("<p> Now let's see how you do it on your own. The baby dragon sees the following shadows. To reward the dragon, just click on the apple you want to give him. </p>"),
+	       ("<p> Now let's see how you do it on your own. The baby dragon sees the following shadows, and has to describe them. </p>")
+		
+		,
+		newText ("<p> To reward the dragon, just click on the apple you want to give him. </p>"),
 	      
 	       newImage ("bunnyshadowscenario", "bunnyshadowscenario.png")
 	       .print ( )
@@ -183,7 +186,7 @@ PennController("trialbunny" ,
 	       newAudio("bunnysounds", "bunnysounds.mp3")
 		.play()
 	       ,
-	       newText ("<p> Baby Dragon: All bunnies behind the shadows are green. </p>")
+	       newText ("<p> Baby Dragon: All bunnies are green. </p>")
 	       ,
 	       newText ("<p> How will you reward the baby dragon? </p>")
 	       ,
@@ -217,7 +220,7 @@ PennController("trialbunny2" ,
 	        newImage ("bunnyshadowscenario", "bunnyshadowscenario.png")
 	       .print ( )
 	       ,
-	       newText ("<p> Baby Dragon: Some bunnies behind the shadows are green. </p>")
+	       newText ("<p> Baby Dragon: Some bunnies are green. </p>")
 	       ,
 	       newText ("<p> How will you reward the baby dragon? </p>")
 	       ,
@@ -1123,7 +1126,7 @@ PennController("experiment" ,
 	        .print(),
 	       newText ("<p> Let's get acquainted with the group of frogs. </p>")
 	        ,
-	        newText ("<p>  We have got frogs: two pairs of purple frogs, and two pairs of red frogs. <p>")
+	        newText ("<p>  We have got two pairs of purple frogs, and two pairs of red frogs. <p>")
 	       ,
 	       newImage("twopurplefrogssmall", "twopurplefrogssmall.png")
         .settings.size(200,200)
@@ -1702,6 +1705,269 @@ newSelector()
     .wait()
 )
 .log( "ID" , getVar("ID") )
+;
+PennController("experiment" ,
+	    defaultText
+	        .print(),
+	       newText ("<p> Now let's see who the shadows belong to. Pam-pam! It's the purple frogs! </p>")
+	         ,         
+	     newImage ("fourpurplefrogscurtainsmall.png")
+               .print ()
+	       ,
+	       	newAudio("frogsounds2sec", "frogsounds2sec.mp3")
+		.play()
+	       ,
+	       newKey(" ")
+        .wait()
+	       
+)
+;
+
+PennController("experiment" ,
+	    defaultText
+	        .print()
+	       ,
+  newText ("<p>  Now let's do one more guessing game with the frogs. </p>"),
+	       newText ("<p> We have got two pairs of purple frogs, and two pairs of red frogs. <p>")
+	       ,
+	       newImage("twopurplefrogssmall", "twopurplefrogssmall.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newImage("twopurplefrogssmall", "twopurplefrogsssmall.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("twopurplefrogssmall") )
+        .settings.add( 250 , 0 , getImage("twopurplefrogssmall") )
+        .print()
+,
+	       
+newImage("tworedfrogssmall", "tworedfrogssmall.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newImage("tworedfrogssmall", "tworedfrogssmall.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("tworedfrogssmall") )
+        .settings.add( 250 , 0 , getImage("tworedfrogssmall") )
+        .print()  
+	       ,
+ newText ("<p> Now all the frogs have gone behind the curtain. <p>")
+,
+	 newKey(" ")
+        .wait()
+)
+;
+
+PennController("experiment" ,
+	    defaultText
+	        .print()
+	       ,
+  newText ("<p> The baby dragon has to describe what he thinks is behind the shadows. </p>")
+	       ,
+   newText ("<p> If what he says is right, you have to reward the baby dragon with a big apple. </p>"),
+   newText ("<p> If what he says is wrong, you'll just give him a small apple.  </p>")
+    ,
+  newImage("bigapple", "bigapple.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newImage("smallapple", "smallapple.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("bigapple") )
+        .settings.add( 250 , 0 , getImage("smallapple") )
+        .print()
+	       ,
+	       newKey(" ")
+        .wait()
+)
+;		
+PennController ("experiment",
+		defaultText
+	        .print(),
+		newText ("<p> Let's look at the shadows, and see what the baby dragon says.</p>")
+		,
+		newImage ("frogshadowscenario3","frogshadowscenario3.png")
+               .print ()
+		,
+		newAudio("frogsounds2sec", "frogsounds2sec.mp3")
+		.play()
+		,
+
+		newText ("<p> Baby Dragon: It is certain that all frogs are red. </p>")
+	       ,
+		newText ("<p> How will you reward the baby dragon? </p>")
+		,
+	       newImage("bigapple", "bigapple.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newImage("smallapple", "smallapple.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("bigapple") )
+        .settings.add( 250 , 0 , getImage("smallapple") )
+        .print()
+	       ,
+	       // newKey("FJ")
+newSelector()
+    .settings.add( getImage("bigapple") , getImage("smallapple") )
+    .settings.keys(          "F"    ,          "J"   )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID") )
+;
+		
+PennController ("experiment",
+		defaultText
+	        .print(),
+		newImage ("frogshadowscenario3","frogshadowscenario3.png")
+               .print ()
+		,
+	
+		newText ("<p> Baby Dragon: It is possible that some frogs are purple. </p>")
+	       ,
+		newText ("<p> How will you reward the baby dragon? </p>")
+		,
+	       newImage("bigapple", "bigapple.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newImage("smallapple", "smallapple.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("bigapple") )
+        .settings.add( 250 , 0 , getImage("smallapple") )
+        .print()
+	       ,
+	       // newKey("FJ")
+newSelector()
+    .settings.add( getImage("bigapple") , getImage("smallapple") )
+    .settings.keys(          "F"    ,          "J"   )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID") )
+;
+PennController("experiment" ,
+	    defaultText
+	        .print(),
+	       newText ("<p> Oh, look, one pair of purple frogs and one pair of red frogs have come in front of the curtain. </p>")
+	          ,    
+	       newText ("<p> Now there are four frogs in front of the curtain: two purple frogs and two red frogs! </p>")
+			,
+      newImage ("frogshadowscenario4", "frogshadowscenario4.png")
+         .print()
+    ,
+	       	newAudio("frogsounds2sec", "frogsounds2sec.mp3")
+		.play()
+	       ,
+	       newKey(" ")
+        .wait()
+	       
+	      )
+
+;
+PennController ("experiment",
+		defaultText
+	        .print(),
+		newText ("<p>  Now let's look at the shadows, and see what the baby dragon says.</p>")
+		,
+		newImage ("frogshadowscenario3","frogshadowscenario3.png")
+               .print ()
+		,
+		newAudio("frogsounds2sec", "frogsounds2sec.mp3")
+		.play()
+		,
+
+		newText ("<p> Baby Dragon: It is certain that some frogs are purple. </p>")
+	       ,
+		newText ("<p> How will you reward the baby dragon? </p>")
+		,
+	       newImage("bigapple", "bigapple.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newImage("smallapple", "smallapple.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("bigapple") )
+        .settings.add( 250 , 0 , getImage("smallapple") )
+        .print()
+	       ,
+	       // newKey("FJ")
+newSelector()
+    .settings.add( getImage("bigapple") , getImage("smallapple") )
+    .settings.keys(          "F"    ,          "J"   )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID") )
+;
+		
+PennController ("experiment",
+		defaultText
+	        .print(),
+		newImage ("frogshadowscenario3","frogshadowscenario3.png")
+               .print ()
+		,
+	
+		newText ("<p> Baby Dragon: It is possible that some frogs are purple. </p>")
+	       ,
+		newText ("<p> How will you reward the baby dragon? </p>")
+		,
+	       newImage("bigapple", "bigapple.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newImage("smallapple", "smallapple.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("bigapple") )
+        .settings.add( 250 , 0 , getImage("smallapple") )
+        .print()
+	       ,
+	       // newKey("FJ")
+newSelector()
+    .settings.add( getImage("bigapple") , getImage("smallapple") )
+    .settings.keys(          "F"    ,          "J"   )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID") )
+;
+PennController("experiment" ,
+	    defaultText
+	        .print(),
+	       newText ("<p> Now let's see who the shadows belong to. Pam-pam! The shadows are a pair of two purple frogs and a pair of two red frogs! </p>")
+	         ,         
+	     newImage ("twopurplefrogstworedfrogscurtainsmall.png")
+               .print ()
+	       ,
+	       	newAudio("frogsounds2sec", "frogsounds2sec.mp3")
+		.play()
+	       ,
+	       newKey(" ")
+        .wait()
+	       
+)
 ;
 PennController.SendResults( "send" );
 PennController( "final" ,
