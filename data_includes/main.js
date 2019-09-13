@@ -333,27 +333,21 @@ PennController("experiment" ,
 	       ,
 	       newImage("twobluedogssmall", "twobluedogssmall.png")
         .print()
-    ,
-    newImage("twobluedogssmall", "twobluedogssmall.png")
-        .print()
-    ,
-    newCanvas(450,200)
+	       ,
+    newCanvas(350,200)
         .settings.add( 0 , 0 , getImage("twobluedogssmall") )
-        .settings.add( 250 , 0 , getImage("twobluedogssmall") )
+        .settings.add( 150 , 0 , getImage("twobluedogssmall") )
         .print()
 ,
 	       
 newImage("twoyellowdogssmall", "twoyellowdogssmall.png")
         
         // .print()
+    
     ,
-    newImage("twoyellowdogssmall", "twoyellowdogssmall.png")
-       
-        // .print()
-    ,
-    newCanvas(450,200)
+    newCanvas(350,200)
         .settings.add( 0 , 0 , getImage("twoyellowdogssmall") )
-        .settings.add( 250 , 0 , getImage("twoyellowdogssmall") )
+        .settings.add( 150 , 0 , getImage("twoyellowdogssmall") )
         .print()  
 	       )
  ,
