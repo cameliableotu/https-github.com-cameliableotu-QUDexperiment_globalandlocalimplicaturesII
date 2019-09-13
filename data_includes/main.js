@@ -339,8 +339,6 @@ PennController("introductionanimals" ,
 newImage("fouryellowdogssmall", "fouryellowdogssmall.png")
         .print()
     ,
- 
-	       ,
  newText ("<p> Now all the dogs have gone behind the curtain. <p>")
 ,
 	 newKey(" ")
@@ -868,8 +866,6 @@ PennController("experiment" ,
 newImage("fouryellowdogssmall", "fouryellowdogssmall.png")
         .print()
     ,
- 
-	       ,
  newText ("<p> Now all the dogs have gone behind the curtain. <p>")
 ,
 	 newKey(" ")
