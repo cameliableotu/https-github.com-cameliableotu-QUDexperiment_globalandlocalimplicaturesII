@@ -332,22 +332,14 @@ PennController("introductionanimals" ,
   newText ("<p>  Now let's get acquainted with the dogs. </p>"),
 	       newText ("<p> We have got two pairs of blue dogs, and two pairs of yellow dogs. <p>")
 	       ,
-	       newImage("twobluedogssmall", "twobluedogssmall.png")
-        .print()
-    ,
-    newCanvas(450,200)
-        .settings.add( 0 , 0 , getImage("twobluedogssmall") )
-        .settings.add( 250 , 0 , getImage("twobluedogssmall") )
+	       newImage("fourbluedogssmall", "fourbluedogssmall.png")
         .print()
 ,
 	       
-newImage("twoyellowdogssmall", "twoyellowdogssmall.png")
+newImage("fouryellowdogssmall", "fouryellowdogssmall.png")
         .print()
     ,
-    newCanvas(450,200)
-        .settings.add( 0 , 0 , getImage("twoyellowdogssmall") )
-        .settings.add( 250 , 0 , getImage("twoyellowdogssmall") )
-        .print()  
+ 
 	       ,
  newText ("<p> Now all the dogs have gone behind the curtain. <p>")
 ,
@@ -869,34 +861,21 @@ PennController("experiment" ,
   newText ("<p>  Now let's do one more guessing game with the dogs. </p>"),
 	       newText ("<p> We have got two pairs of blue dogs, and two pairs of yellow dogs. <p>")
 	       ,
-	       newImage("twobluedogssmall", "twobluedogssmall.png")
-        .print()
-    ,
-    newImage("twobluedogssmall", "twobluedogssmall.png")
-         .print()
-    ,
-    newCanvas(450,200)
-        .settings.add( 0 , 0 , getImage("twobluedogssmall") )
-        .settings.add( 250 , 0 , getImage("twobluedogssmall") )
+	newImage("fourbluedogssmall", "fourbluedogssmall.png")
         .print()
 ,
 	       
-newImage("twoyellowdogssmall", "twoyellowdogssmall.png")
-        // .print()
+newImage("fouryellowdogssmall", "fouryellowdogssmall.png")
+        .print()
     ,
-    newImage("twoyellowdogssmall", "twoyellowdogssmall.png")
-        // .print()
-    ,
-    newCanvas(450,200)
-        .settings.add( 0 , 0 , getImage("twoyellowdogssmall") )
-        .settings.add( 250 , 0 , getImage("twoyellowdogssmall") )
-        .print()  
+ 
 	       ,
  newText ("<p> Now all the dogs have gone behind the curtain. <p>")
 ,
 	 newKey(" ")
         .wait()
-)
+)        
+	    
 ;
 
 PennController("experiment" ,
@@ -1115,16 +1094,11 @@ PennController("experiment" ,
 	        ,
 	        newText ("<p>  We have got two pairs of purple frogs, and two pairs of red frogs. <p>")
 	       ,
-	       newImage("twopurplefrogssmall", "twopurplefrogssmall.png")
+	       newImage("fourpurplefrogssmall", "fourpurplefrogssmall.png")
         .print()
     ,
-    newImage("tworedfrogssmall", "tworedfrogssmall.png")
+    newImage("fourredfrogssmall", "fourredfrogssmall.png")
          .print()
-    ,
-    newCanvas(450,200)
-        .settings.add( 0 , 0 , getImage("twopurplefrogssmall") )
-        .settings.add( 250 , 0 , getImage("tworedfrogssmall") )
-        .print()
            ,
 	       newAudio("frogsounds2sec", "frogsounds2sec.mp3")
 		.play()
@@ -1715,29 +1689,12 @@ PennController("experiment" ,
   newText ("<p>  Now let's do one more guessing game with the frogs. </p>"),
 	       newText ("<p> We have got two pairs of purple frogs, and two pairs of red frogs. <p>")
 	       ,
-	       newImage("twopurplefrogssmall", "twopurplefrogssmall.png")
+	       newImage("fourpurplefrogssmall", "fourpurplefrogssmall.png")
         .print()
     ,
-    newImage("twopurplefrogssmall", "twopurplefrogsssmall.png")
+    newImage("fourpurplefrogssmall", "fourpurplefrogsssmall.png")
         .print()
     ,
-    newCanvas(450,200)
-        .settings.add( 0 , 0 , getImage("twopurplefrogssmall") )
-        .settings.add( 250 , 0 , getImage("twopurplefrogssmall") )
-        .print()
-,
-	       
-newImage("tworedfrogssmall", "tworedfrogssmall.png")
-        // .print()
-    ,
-    newImage("tworedfrogssmall", "tworedfrogssmall.png")
-        // .print()
-    ,
-    newCanvas(450,200)
-        .settings.add( 0 , 0 , getImage("tworedfrogssmall") )
-        .settings.add( 250 , 0 , getImage("tworedfrogssmall") )
-        .print()  
-	       ,
  newText ("<p> Now all the frogs have gone behind the curtain. <p>")
 ,
 	 newKey(" ")
