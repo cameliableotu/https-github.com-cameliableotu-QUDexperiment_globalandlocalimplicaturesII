@@ -2667,7 +2667,7 @@ PennController("experiment" ,
 	        .print()
 	       ,
   newText ("<p>  Now let's get acquainted with the cows. </p>"),
-	       newText ("<p> We have got two pairs of green cows, and two pairs of yellow cows. <p>")
+	       newText ("<p> We have got two pairs of green cows, and two pairs of yellow cows. </p>")
 	       ,
 	       newImage("fourgreencowssmall", "fourgreencowssmall.png")
         .print()
@@ -2679,7 +2679,7 @@ newImage("fouryellowcowssmall", "fouryellowcowssmall.png")
 	       newaudio ("cowsounds2sec", "cowsounds2sec.mp3")
 	       .play ()
 	       ,
- newText ("<p> Now all the cows have gone behind the curtain. <p>")
+ newText ("<p> Now all the cows have gone behind the curtain. </p>")
 ,
 	 newKey(" ")
         .wait()
@@ -2690,7 +2690,7 @@ PennController("experiment" ,
 	    defaultText
 	        .print()
 	       ,
-  newText ("<p> Now a pair of green cows has come in front of the curtain. <p>")  
+  newText ("<p> Now a pair of green cows has come in front of the curtain. </p>")  
 	       ,
   newText ("<p> The baby dragon has to describe what he thinks is behind the shadows. </p>")
 	       ,
