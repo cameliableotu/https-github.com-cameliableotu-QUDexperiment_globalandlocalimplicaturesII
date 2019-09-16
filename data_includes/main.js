@@ -2650,18 +2650,16 @@ PennController("experiment" ,
 	        .print(),
 	       newText ("<p> Now let's see who the shadows belong to! </p>")
 	       ,
-	       newText ("<p> The shadows are a pair of pink cats and a pair of blue cats! </p>")
+	       newText ("<p> The shadows are a pair of blue cats and a pair of pink cats! </p>")
 			,
-      newImage ("twopinkcatstwobluecatscurtainsmall", "twopinkcatstwobluecatscurtainsmall.png")
+      newImage ("twobluecatstwopinkcatscurtainsmall", "twobluecatstwopinkcatscurtainsmall.png")
          .print()
     ,
 	       	newAudio("catsounds", "catsounds.mp3")
 		.play()
 	       ,
 	       newKey(" ")
-        .wait()
-	       
-	      )
+        .wait()  )
 
 ;
 PennController("experiment" ,
