@@ -3203,7 +3203,7 @@ PennController("experiment" ,
 newImage("fourpinkcatssmall", "fourpinkcatssmall.png")
         .print()
     ,
- newText ("<p> Now all the cats have gone behind the curtain. <p>")
+ newText ("<p> Now all the cows have gone behind the curtain. <p>")
 ,
 	 newKey(" ")
         .wait()
@@ -3242,14 +3242,14 @@ PennController ("experiment",
 	        .print(),
 		newText ("<p> Let's look at the shadows, and see what the baby dragon says.</p>")
 		,
-		newImage ("catshadowscenario3","catsshadowscenario3.png")
+		newImage ("cowshadowscenario3","cowshadowscenario3.png")
                .print ()
 		,
-		newAudio("catsounds", "catsounds.mp3")
+		newAudio("cowsounds2sec", "cowsounds2sec.mp3")
 		.play()
 		,
 
-		newText ("<p> Baby Dragon: It is certain that all cats are pink. </p>")
+		newText ("<p> Baby Dragon: It is possible that some cows are yellow. </p>")
 	       ,
 		newText ("<p> How will you reward the baby dragon? </p>")
 		,
@@ -3279,11 +3279,11 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("catshadowscenario1","catshadowscenario1.png")
+		newImage ("cowshadowscenario1","cowshadowscenario1.png")
                .print ()
 		,
 	
-		newText ("<p> Baby Dragon: It is possible that some cats are blue. </p>")
+		newText ("<p> Baby Dragon: It is certain that all cows are green. </p>")
 	       ,
 		newText ("<p> How will you reward the baby dragon? </p>")
 		,
@@ -3312,14 +3312,14 @@ newSelector()
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Oh, look, one pair of pink cats and one pair of blue cats have come in front of the curtain. </p>")
+	       newText ("<p> Oh, look, one pair of yellow cows and one pair of green cows have come in front of the curtain. </p>")
 	          ,    
-	       newText ("<p> Now there are four cats in front of the curtain: two pink cats and two blue cats! </p>")
+	       newText ("<p> Now there are four cows in front of the curtain: two yellow cows and two green cows! </p>")
 			,
-      newImage ("catshadowscenario4", "catshadowscenario4.png")
+      newImage ("cowshadowscenario4", "cowshadowscenario4.png")
          .print()
     ,
-	       	newAudio("catsounds", "catsounds.mp3")
+	       	newAudio("cowsounds2sec", "cowsounds2sec.mp3")
 		.play()
 	       ,
 	       newKey(" ")
@@ -3335,11 +3335,11 @@ PennController ("experiment",
 	        .print(),
 		newText ("<p> Now let's see what the baby dragon says about the shadows. </p>")
 		,
-		newImage ("catshadowscenario4","catshadowscenario4.png")
+		newImage ("cowshadowscenario4","cowshadowscenario4.png")
                .print ()
 		,
 
-		newText ("<p> Baby Dragon: It is certain that some cats are blue. </p>")
+		newText ("<p> Baby Dragon: It is possible that some cows are yellow. </p>")
 	       ,
 	        newText ("<p> How will you reward the baby dragon? </p>")
 		,
@@ -3368,11 +3368,11 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("catshadowscenario4","catshadowscenario4.png")
+		newImage ("cowshadowscenario4","cowshadowscenario4.png")
                .print ()
 		,
 
-		newText ("<p> Baby Dragon: It is possible that some cats are blue. </p>")
+		newText ("<p> Baby Dragon: It is certain that some cows are yellow. </p>")
 	       ,
 	        newText ("<p> How will you reward the baby dragon? </p>")
 		,
@@ -3404,12 +3404,12 @@ PennController("experiment" ,
 	        .print(),
 	       newText ("<p> Now let's see who the shadows belong to! </p>")
 	       ,
-	       newText ("<p> The shadows are a pair of pink cats and a pair of blue cats! </p>")
+	       newText ("<p> The shadows are a pair of green cows and a pair of yellow cows! </p>")
 			,
-      newImage ("twopinkcastwobluecatscurtainsmall", "twopinkcatstwobluecatscurtainsmall.png")
+      newImage ("twogreencowstwoyellowcowscurtainsmall", "twogreencowstwoyellowcowscurtainsmall.png")
          .print()
     ,
-	       	newAudio("catsounds", "catsounds.mp3")
+	       	newAudio("cowsounds2sec", "cowsounds2sec.mp3")
 		.play()
 	       ,
 	       newKey(" ")
