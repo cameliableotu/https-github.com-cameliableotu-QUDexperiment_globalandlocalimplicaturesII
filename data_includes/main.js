@@ -1911,7 +1911,7 @@ PennController("experiment" ,
   newText ("<p>  Now let's get acquainted with the cats. </p>"),
 	       newText ("<p> We have got two pairs of blue cats, and two pairs of pink cats. <p>")
 	       ,
-	       newImage("fourbluecatssmall", "fourcatssmall.png")
+	       newImage("fourbluecatssmall", "fourbluecatssmall.png")
         .print()
 ,
 	       
@@ -2488,7 +2488,7 @@ PennController ("experiment",
 	        .print(),
 		newText ("<p> Let's look at the shadows, and see what the baby dragon says.</p>")
 		,
-		newImage ("catshadowscenario3","catsshadowscenario3.png")
+		newImage ("catshadowscenario3","catshadowscenario3.png")
                .print ()
 		,
 		newAudio("catsounds", "catsounds.mp3")
@@ -2652,7 +2652,7 @@ PennController("experiment" ,
 	       ,
 	       newText ("<p> The shadows are a pair of pink cats and a pair of blue cats! </p>")
 			,
-      newImage ("twopinkcastwobluecatscurtainsmall", "twopinkcatstwobluecatscurtainsmall.png")
+      newImage ("twopinkcatstwobluecatscurtainsmall", "twopinkcatstwobluecatscurtainsmall.png")
          .print()
     ,
 	       	newAudio("catsounds", "catsounds.mp3")
