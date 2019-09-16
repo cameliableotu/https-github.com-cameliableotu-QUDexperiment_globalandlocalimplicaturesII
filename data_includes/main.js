@@ -2666,6 +2666,12 @@ PennController("experiment" ,
 	    defaultText
 	        .print()
 	       ,
+  newText ("<p>  Now let's get acquainted with the cows. </p>"))
+;
+PennController("experiment" ,
+	    defaultText
+	        .print()
+	       ,
   newText ("<p>  Now let's get acquainted with the cows. </p>"),
 	       newText ("<p> We have got two pairs of green cows, and two pairs of yellow cows. </p>")
 	       ,
