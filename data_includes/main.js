@@ -73,10 +73,10 @@ PennController("details" ,
 	    defaultText
 	        .print()
 	       ,
-  newText ("<p> The baby dragon has to describe what he thinks is behind the shadows. </p>")
+  newText ("<p> The baby dragon has to describe what he thinks is behind the shadow. </p>")
 	       ,
-   newText ("<p> If what he says is right, you have to reward the baby dragon with a big apple. </p>"),
-   newText ("<p> If what he says is wrong, you'll just give him a small apple.  </p>")
+   newText ("<p> If it's the best description, you have to reward the baby dragon with a big apple. </p>"),
+   newText ("<p> If it's not the best description, you'll just give him a small apple.  </p>")
     ,
   newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -142,7 +142,7 @@ PennController("trial2" ,
 	       ,
 	       newText ("<p> The baby dragon says: Some bunnies are pink. </p>")
 	       ,
-	       newText ("<p> What the baby dragon said is wrong. None of the bunnies behind the shadows are pink. </p>"),
+	      newText ("<p> The baby dragon's description is not the best one. The shadow does not belong to a mouse, but to a bunny. </p>"),
 	       newText ("<p> Because of this, you will give the baby dragon a small apple, not a big apple. </p>"),
 	       newText ("<p> To reward the dragon, you will click on the apple which is his reward, in this case, the small apple.</p>")
 	       ,
@@ -354,8 +354,8 @@ PennController("experiment" ,
 	       ,
   newText ("<p> The baby dragon has to describe what he thinks is behind the shadows. </p>")
 	       ,
-   newText ("<p> If what he says is right, you have to reward the baby dragon with a big apple. </p>"),
-   newText ("<p> If what he says is wrong, you'll just give him a small apple.  </p>")
+   newText ("<p> If it's the best description, you have to reward the baby dragon with a big apple. </p>"),
+   newText ("<p> If it's not the best description, you'll just give him a small apple.  </p>")
     ,
   newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -880,8 +880,8 @@ PennController("experiment" ,
 	       ,
   newText ("<p> The baby dragon has to describe what he thinks is behind the shadow. </p>")
 	       ,
-   newText ("<p> If what he says is right, you have to reward the baby dragon with a big apple. </p>"),
-   newText ("<p> If what he says is wrong, you'll just give him a small apple.  </p>")
+   newText ("<p> If it's the best description, you have to reward the baby dragon with a big apple. </p>"),
+   newText ("<p> If it's not the best description, you'll just give him a small apple.  </p>")
     ,
   newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -1115,8 +1115,8 @@ PennController("experiment" ,
 	       ,
   newText ("<p> The baby dragon has to describe what he thinks is behind the shadows. </p>")
 	       ,
-   newText ("<p> If what he says is right, you have to reward the baby dragon with a big apple. </p>"),
-   newText ("<p> If what he says is wrong, you'll just give him a small apple.  </p>")
+   newText ("<p> If it's the best description, you have to reward the baby dragon with a big apple. </p>"),
+   newText ("<p> If it's not the best description, you'll just give him a small apple.  </p>")
     ,
   newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -1669,8 +1669,8 @@ PennController("experiment" ,
 	       ,
   newText ("<p> The baby dragon has to describe what he thinks is behind the shadows. </p>")
 	       ,
-   newText ("<p> If what he says is right, you have to reward the baby dragon with a big apple. </p>"),
-   newText ("<p> If what he says is wrong, you'll just give him a small apple.  </p>")
+   newText ("<p> If it's the best description, you have to reward the baby dragon with a big apple. </p>"),
+   newText ("<p> If it's not the best description, you'll just give him a small apple.  </p>")
     ,
   newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -1902,8 +1902,8 @@ PennController("experiment" ,
 	       ,
   newText ("<p> The baby dragon has to describe what he thinks is behind the shadows. </p>")
 	       ,
-   newText ("<p> If what he says is right, you have to reward the baby dragon with a big apple. </p>"),
-   newText ("<p> If what he says is wrong, you'll just give him a small apple.  </p>")
+  newText ("<p> If it's the best description, you have to reward the baby dragon with a big apple. </p>"),
+   newText ("<p> If it's not the best description, you'll just give him a small apple.  </p>")
     ,
   newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -2429,8 +2429,8 @@ PennController("experiment" ,
 	       ,
   newText ("<p> The baby dragon has to describe what he thinks is behind the shadow. </p>")
 	       ,
-   newText ("<p> If what he says is right, you have to reward the baby dragon with a big apple. </p>"),
-   newText ("<p> If what he says is wrong, you'll just give him a small apple.  </p>")
+  newText ("<p> If it's the best description, you have to reward the baby dragon with a big apple. </p>"),
+   newText ("<p> If it's not the best description, you'll just give him a small apple.  </p>")
     ,
   newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -2658,8 +2658,8 @@ PennController("experiment" ,
 	       ,
   newText ("<p> The baby dragon has to describe what he thinks is behind the shadows. </p>")
 	       ,
-   newText ("<p> If what he says is right, you have to reward the baby dragon with a big apple. </p>"),
-   newText ("<p> If what he says is wrong, you'll just give him a small apple.  </p>")
+   newText ("<p> If it's the best description, you have to reward the baby dragon with a big apple. </p>"),
+   newText ("<p> If it's not the best description, you'll just give him a small apple.  </p>")
     ,
   newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -3178,8 +3178,8 @@ PennController("experiment" ,
 	       ,
   newText ("<p> The baby dragon has to describe what he thinks is behind the shadow. </p>")
 	       ,
-   newText ("<p> If what he says is right, you have to reward the baby dragon with a big apple. </p>"),
-   newText ("<p> If what he says is wrong, you'll just give him a small apple.  </p>")
+  newText ("<p> If it's the best description, you have to reward the baby dragon with a big apple. </p>"),
+   newText ("<p> If it's not the best description, you'll just give him a small apple.  </p>")
     ,
   newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -3382,7 +3382,7 @@ PennController("experiment" ,
 PennController.SendResults( "send" );
 
 PennController( "final" ,
-	       newText ("<p> Thank you for your participation! The survey code for MTurk is: rt7w25. Please copy-paste it to MTurk. </p>")
+	       newText ("<p> Thank you for your participation! The survey code for MTurk is: supercutey4. Please copy-paste it to MTurk. </p>")
 	       .print()
 	       ,
 	 newText("<p> The baby dragon thanks you for the apples, and so does the wizard! Bubbye! </p>")
