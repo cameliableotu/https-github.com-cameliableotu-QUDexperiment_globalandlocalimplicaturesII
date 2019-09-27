@@ -3009,7 +3009,7 @@ PennController ("experiment",
 		newImage ("cowshadowscenario2", "cowshadowscenario2.png")
                .print ()
 		,
-		newText ("<p> Baby Dragon: It is certain that all cows are yellow.).</p>")
+		newText ("<p> Baby Dragon: It is certain that all cows are yellow.</p>")
 		,
 		newText ("<p> How will you reward the baby dragon? </p>")
 		,
