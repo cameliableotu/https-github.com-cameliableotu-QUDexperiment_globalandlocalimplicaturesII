@@ -62,7 +62,7 @@ newText ("<p> Now Merlin is playing the shadow game with a cute baby dragon, who
 ,
  newText ("<p> If there are no animals in front of the curtain, there will be a line instead. </p>")
 	       ,
- newText ("<p> For instance, in the image below, there are four pairs of cats, and none of them is in front of the curtain. They all went behind the curtain, but the shadow belongs to only one of them. </p>"),
+ newText ("<p> For instance, in the image below, there are four pairs of cats, and none of them is in front of the curtain. They all went behind the curtain, but the shadows belongs to only two pairs of cats. </p>"),
 	  newImage ("catshadowscenario3", "catshadowscenario3.png")
 	.print (),
 	 newKey(" ")
