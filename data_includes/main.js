@@ -142,7 +142,7 @@ PennController("trial2" ,
 	       ,
 	       newText ("<p> The baby dragon says: Some bunnies are pink. </p>")
 	       ,
-	      newText ("<p> The baby dragon's description is not the best one. The shadow does not belong to a mouse, but to a bunny. </p>"),
+	      newText ("<p> The baby dragon's description is not the best one. The shadow does not belong to the pink bunnies, but to the green bunnies. </p>"),
 	       newText ("<p> Because of this, you will give the baby dragon a small apple, not a big apple. </p>"),
 	       newText ("<p> To reward the dragon, you will click on the apple which is his reward, in this case, the small apple.</p>")
 	       ,
