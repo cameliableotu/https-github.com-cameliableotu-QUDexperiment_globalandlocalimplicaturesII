@@ -993,7 +993,7 @@ PennController ("experiment",
 	        .print(),
 		newText ("<p>  Now let's look at the shadows, and see what the baby dragon says.</p>")
 		,
-		newImage ("frogshadowscenario3","frogshadowscenario3.png")
+		newImage ("frogshadowscenario4","frogshadowscenario4.png")
                .print ()
 		,
 		newAudio("frogsounds2sec", "frogsounds2sec.mp3")
@@ -1030,7 +1030,7 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("frogshadowscenario3","frogshadowscenario3.png")
+		newImage ("frogshadowscenario4","frogshadowscenario4.png")
                .print ()
 		,
 	
