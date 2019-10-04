@@ -646,10 +646,11 @@ newSelector()
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Oh, look, another pair of yellow dogs has come in front of the curtain. Now there are four yellow dogs in front of the curtain.</p>")
-	          ,    
-	       newText ("<p> So the shadows are not the yellow dogs! </p>")
-			,
+	       
+	       newText ("<p> Uite, o altă pereche de câini galbeni a revenit în faţa cortinei. Acum în faţa cortinei sunt patru câini galbeni, dar umbrele sunt încă acolo, în lumina reflectoarelor.</p>")
+	          ,        
+	       newText ("<p> Deci umbrele nu sunt câinii galbeni! </p>")
+	,
       newImage ("dogshadowscenario2", "dogshadowscenario2.png")
          .print()
     ,
@@ -667,16 +668,16 @@ PennController("experiment" ,
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newText ("<p> Now let's see what the baby dragon says about the shadows. </p>"),
+		newText ("<p> Hai să vedem ce spune puiul de dragon despre umbre. </p>"),
 		newImage ("dogshadowscenario2", "dogshadowscenario2.png")
                .print ()
 		,
 		newAudio("barking", "barking.mp3")
 		.play()
 	       ,
-		newText ("<p> Baby Dragon: It is possible that some dogs are blue.</p>")
+		newText ("<p> Puiul de dragon: Poate că unii câini sunt albaştri.</p>")
 		,
-		newText ("<p> How will you reward the baby dragon? </p>")
+		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
 		,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -710,9 +711,9 @@ PennController ("experiment",
 		newAudio("barking", "barking.mp3")
 		.play()
 		,
-		newText ("<p> Baby Dragon: It is certain that all dogs are blue.</p>")
+		newText ("<p> Puiul de dragon: Sigur că toţi câinii sunt albaştri.</p>")
 		,
-		newText ("<p> How will you reward the baby dragon? </p>")
+		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
 		,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -744,41 +745,9 @@ PennController ("experiment",
 		newImage ("dogshadowscenario2", "dogshadowscenario2.png")
                .print ()
 		,
-		newText ("<p> Baby Dragon: It is certain that some dogs are yellow.</p>")
+		newText ("<p> Puiul de dragon: Sigur că unii câini sunt galbeni.</p>")
 		,
-		newText ("<p> How will you reward the baby dragon? </p>")
-		,
-	       newImage("bigapple", "bigapple.png")
-        .settings.size(200,200)
-        // .print()
-    ,
-    newImage("smallapple", "smallapple.png")
-        .settings.size(200,200)
-        // .print()
-    ,
-    newCanvas(450,200)
-        .settings.add( 0 , 0 , getImage("bigapple") )
-        .settings.add( 250 , 0 , getImage("smallapple") )
-        .print()
-	       ,
-	       // newKey("FJ")
-newSelector()
-    .settings.add( getImage("bigapple") , getImage("smallapple") )
-    .settings.keys(          "F"    ,          "J"   )
-    .settings.log()
-    .wait()
-)
-.log( "ID" , getVar("ID") )
-;
-PennController ("experiment",
-		defaultText
-	        .print(),
-		newImage ("dogshadowscenario2", "dogshadowscenario2.png")
-               .print ()
-		,
-		newText ("<p> Baby Dragon: It is possible that all dogs are blue.</p>")
-		,
-	        newText ("<p> How will you reward the baby dragon? </p>")
+		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
 		,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -808,9 +777,41 @@ PennController ("experiment",
 		newImage ("dogshadowscenario2", "dogshadowscenario2.png")
                .print ()
 		,
-		newText ("<p> Baby Dragon: It is certain that some dogs are blue.</p>")
+		newText ("<p> Puiul de dragon: Poate că toţi câinii sunt albaştri. </p>")
 		,
-	        newText ("<p> How will you reward the baby dragon? </p>")
+	        newText ("<p> Cum vei răsplati puiul de dragon? </p>")
+		,
+	       newImage("bigapple", "bigapple.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newImage("smallapple", "smallapple.png")
+        .settings.size(200,200)
+        // .print()
+    ,
+    newCanvas(450,200)
+        .settings.add( 0 , 0 , getImage("bigapple") )
+        .settings.add( 250 , 0 , getImage("smallapple") )
+        .print()
+	       ,
+	       // newKey("FJ")
+newSelector()
+    .settings.add( getImage("bigapple") , getImage("smallapple") )
+    .settings.keys(          "F"    ,          "J"   )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID") )
+;
+PennController ("experiment",
+		defaultText
+	        .print(),
+		newImage ("dogshadowscenario2", "dogshadowscenario2.png")
+               .print ()
+		,
+		newText ("<p> Puiul de dragon: Sigur că unii câinii sunt albaştri. </p>")
+		,
+	        newText ("<p> Cum vei răsplati puiul de dragon? </p>")
 		,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -837,7 +838,7 @@ newSelector()
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Now let's see who the shadows belong to. Pam-pam! It's the blue dogs! </p>")
+	       newText ("<p> Hai acum să vedem ale cui sunt umbrele. Pam-pam! Sunt câinii albaştri! </p>")
 	         ,         
 	     newImage ("fourbluedogscurtainsmall.png")
                .print ()
