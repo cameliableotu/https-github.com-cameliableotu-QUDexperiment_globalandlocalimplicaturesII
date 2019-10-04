@@ -56,7 +56,7 @@ PennController("details" ,
 	        .print()
 	    
 	       ,
-newText ("<p> Acum Merlin joacă jocul umbrelor cu un pui de dragon foarte drăguţ care trebuie să ghicească a căror animale este umbra pe care o are în faţa sa.</p>")
+newText ("<p> Acum Merlin joacă jocul umbrelor cu un pui de dragon foarte drăguţ care trebuie să ghicească ale căror animale sunt umbrele pe care le are în faţa sa.</p>")
 	,
 newText("<p> Imaginile vor arăta umbrele, dar şi toate animalele din joc şi animalele care se află atunci în faţa cortinei. </p>"),
 newText ("<p> Dacă nu sunt deloc animale în faţa cortinei, va fi în loc o linie. </p>")
@@ -72,7 +72,7 @@ PennController("details" ,
 	    defaultText
 	        .print()
 	       ,
-  newText ("<p> Puiul de dragon trebuie să descrie a cui crede el că sunt umbrele. </p>")
+  newText ("<p> Puiul de dragon trebuie să descrie ale cui crede că sunt umbrele. </p>")
 	       ,
    newText ("<p> Când puiul de dragon oferă cea mai bună descriere, trebuie să-l răsplăteşti cu un măr mare. </p>"), 
    newText ("<p> Atunci când puiul de dragon nu oferă cea mai bună descriere, îi dai doar un măr mic. </p>")
@@ -350,7 +350,7 @@ PennController("experiment" ,
 	       ,
   newText ("<p> O pereche de câini galbeni a venit acum în faţa cortinei. <p>")  
 	       ,
-  newText ("<p> Puiul de dragon trebuie să descrie a cui crede el că sunt umbrele. </p>")
+  newText ("<p> Puiul de dragon trebuie să descrie ale cui crede că sunt umbrele. </p>")
 	       ,
    newText ("<p> Când puiul de dragon oferă cea mai bună descriere, trebuie să-l răsplăteşti cu un măr mare. </p>"), 
    newText ("<p> Atunci când puiul de dragon nu oferă cea mai bună descriere, îi dai doar un măr mic. </p>")
