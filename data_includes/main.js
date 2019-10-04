@@ -60,9 +60,8 @@ newText ("<p> Acum Merlin joacă jocul umbrelor cu un pui de dragon foarte drăg
 	,
 newText("<p> Imaginile vor arăta umbrele, dar şi toate animalele din joc şi animalele care se află atunci în faţa cortinei. </p>"),
 newText ("<p> Dacă nu sunt deloc animale în faţa cortinei, va fi în loc o linie. </p>")
-	       ,
-	       newText ("<p> De exemplu, în imaginea de mai jos, sunt patru perechi de pisici şi niciuna din ele nu este în faţa cortinei. Toate pisicile s-au dus în spatele cortinei, dar umbrele aparţin doar a doua perechi de pisici. </p>"),
-             ,
+	       , newText ("<p> De exemplu, în imaginea de mai jos, sunt patru perechi de pisici şi niciuna din ele nu este în faţa cortinei. Toate pisicile s-au dus în spatele cortinei, dar umbrele aparţin doar a doua perechi de pisici. </p>"),
+             
 	  newImage ("catshadowscenario3", "catshadowscenario3.png")
 	.print (),
 	 newKey(" ")
@@ -1337,7 +1336,7 @@ PennController("experiment" ,
    newText ("<p> Când puiul de dragon oferă cea mai bună descriere, trebuie să-l răsplăteşti cu un măr mare. </p>"), 
    newText ("<p> Atunci când puiul de dragon nu oferă cea mai bună descriere, îi dai doar un măr mic. </p>")
 ,
-    ,
+    
   newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
