@@ -942,7 +942,7 @@ PennController ("experiment",
                .print ()
 		,
 	
-		newText ("<p> Puiul de dragon: Poate că unele broaştele sunt mov. </p>")
+		newText ("<p> Puiul de dragon: Poate că unele broaşte sunt mov. </p>")
 	       ,
 		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
 		,
