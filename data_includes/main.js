@@ -520,7 +520,7 @@ PennController ("experiment",
 		newAudio("barking", "barking.mp3")
 		.play()
 		,
-		newText ("<p> Baby Dragon: Sigur că unii câinii sunt albaştri.</p>")
+		newText ("<p> Baby Dragon: Sigur că unii câini sunt albaştri.</p>")
 		,
 		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
 		,
@@ -808,7 +808,7 @@ PennController ("experiment",
 		newImage ("dogshadowscenario2", "dogshadowscenario2.png")
                .print ()
 		,
-		newText ("<p> Puiul de dragon: Sigur că unii câinii sunt albaştri. </p>")
+		newText ("<p> Puiul de dragon: Sigur că unii câini sunt albaştri. </p>")
 		,
 	        newText ("<p> Cum vei răsplati puiul de dragon? </p>")
 		,
