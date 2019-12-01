@@ -252,7 +252,7 @@ PennController("introductionanimals" ,
 	       
 	     newText ("<p> Toate animalele sunt foarte îndrăgostite, aşa că nu vei vedea niciodat un animal de unul singur. </p>"),
 	       
-	      newText ("<p> Vei vedea doar perechi de animale, cupluri, unde animalele îndrăgostite se privesc cu dragoste. </p>")
+	      newText ("<p> Vei vedea doar perechi de animale, cupluri, unde, adesea,  animalele îndrăgostite se privesc cu dragoste. </p>")
 	       ,
 	       
 	       newText ("<p> Vei vedea perechi de câini. </p>")
@@ -520,7 +520,7 @@ PennController ("experiment",
 		newAudio("barking", "barking.mp3")
 		.play()
 		,
-		newText ("<p> Baby Dragon: Sigur că unii câini sunt albaştri.</p>")
+		newText ("<p> Puiul de dragon: Sigur că unii câini sunt albaştri.</p>")
 		,
 		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
 		,
@@ -1499,9 +1499,9 @@ PennController ("experiment",
 		newImage ("cowshadowscenario1", "cowshadowscenario1.png")
                .print ()
 		,
-		newText ("<p> Baby Dragon: Sigur că unele vaci sunt galbene.</p>")
+		newText ("<p> Puiul de dragon: Sigur că unele vaci sunt galbene.</p>")
 		,
-		newText ("<p> How will you reward the baby dragon? </p>")
+		newText ("<p> Cum vei răsplăti puiul de dragon? </p>")
 		,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
