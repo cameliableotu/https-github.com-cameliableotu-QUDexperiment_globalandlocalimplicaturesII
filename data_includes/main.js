@@ -38,10 +38,7 @@ PennController( "welcome" ,
         .settings.global()
         .set( getTextInput("ID")))
 	      
-.log( "ID" , getVar("ID") 
- .log( "Age" , getVar("Age")
-     .log( "Gender" , getVar("Gender")
-	 .log( "Profession" , getVar("Profession"));
+.log( "ID" , getVar("ID"));
 PennController("welcome" ,
 	    defaultText
 	        .print()
@@ -168,8 +165,7 @@ newSelector()
     .settings.log()
     .wait()
 )
-.log( "ID" , getVar("ID")
-    .log( "Age" , getVar("Age"))
+.log( "ID" , getVar("ID"))
 ;
 
 PennController("trialbunny" ,
