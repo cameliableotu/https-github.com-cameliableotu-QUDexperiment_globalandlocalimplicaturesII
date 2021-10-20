@@ -532,9 +532,9 @@ PennController ("experiment",
 		newAudio("frogsounds2sec", "frogsounds2sec.mp3")
 		.play()
 		,
-		newText ("<p> Magicianul întreabǎ: 'Sunt unele sau toate broaştele mov?' </p>"),
+		newText ("<p> Magicianul întreabǎ: 'Sunt unele sau toate broaştele roşii?' </p>"),
 
-		newText ("<p> Puiul de dragon rǎspunde: 'Sigur că unele broaşte sunt mov'. </p>")
+		newText ("<p> Puiul de dragon rǎspunde: 'Sigur că unele broaşte sunt roşii'. </p>")
 	       ,
 		newText ("<p> Cum vei răsplăti puiul de dragon? </p>")
 		,
@@ -567,8 +567,6 @@ PennController ("experiment",
 		newImage ("frogshadowscenario4","frogshadowscenario4.png")
                .print ()
 		,
-	       newAudio("frogsounds2sec", "frogsounds2sec.mp3")
-		.play(),
 	        newText ("<p> Magicianul întreabǎ: 'Sunt unele sau toate broaştele mov'? </p>"), 
 		newText ("<p> Puiul de dragon spune: 'Poate că unele broaşte sunt mov.' </p>")
 	       ,
@@ -750,7 +748,6 @@ PennController("experiment" ,
 
 ;
 
-
 PennController ("experiment",
 		defaultText
 	        .print(),
@@ -759,9 +756,9 @@ PennController ("experiment",
 		newImage ("catshadowscenario4","catshadowscenario4.png")
                .print ()
 		,
-		newText ("<p> Magicianul întreabǎ: 'Sunt unele sau toate pisicile albastre?' </p>"),
+		newText ("<p> Magicianul întreabǎ: 'Sunt unele sau toate pisicile roz?' </p>"),
 
-		newText ("<p> Puiul de dragon rǎspunde: 'Sigur că unele pisici sunt albastre.' </p>")
+		newText ("<p> Puiul de dragon rǎspunde: 'Sigur că unele pisici sunt roz.' </p>")
 	       ,
 	        newText ("<p> Cum vei răsplati puiul de dragon? </p>")
 		,
@@ -880,7 +877,7 @@ PennController("experiment" ,
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newText ("<p>  Hai să vedem ce spune puiul de dragon despre umbre.</p>")
+		newText ("<p> Hai să vedem ce spune puiul de dragon despre umbre.</p>")
 		,
 		newImage ("dogshadowscenario3","dogshadowscenario3.png")
                .print ()
@@ -1013,8 +1010,8 @@ PennController ("experiment",
 		newImage ("dogshadowscenario4","dogshadowscenario4.png")
                .print ()
 		,
-               newText ("<p> Magicianul întreabǎ:'Sunt unii sau toţi câinii albaştri?'</p>"),
-		newText ("<p> Puiul de dragon rǎspunde:'Sigur că unii câini sunt albaştri.' </p>")
+               newText ("<p> Magicianul întreabǎ:'Sunt unii sau toţi câinii galbeni?'</p>"),
+		newText ("<p> Puiul de dragon rǎspunde:'Sigur că unii câini sunt galbeni.' </p>")
 	       ,
 	        newText ("<p> Cum vei răsplati puiul de dragon? </p>")
 		,
@@ -1065,7 +1062,7 @@ PennController("experiment" ,
 	    defaultText
 	        .print()
 	       ,
-  newText ("<p>  Hai să trecem mai departe la grupul vacilor. </p>"),
+  newText ("<p> Hai să trecem mai departe la grupul vacilor. </p>"),
   newText ("<p> Avem două perechi de vaci verzi şi două perechi de vaci galbene. <p>")
 	       ,
 	newImage("fourgreencowssmall", "fourgreencowssmall.png")
@@ -1244,9 +1241,9 @@ PennController ("experiment",
 		newImage ("cowshadowscenario4","cowshadowscenario4.png")
                .print ()
 		,
-		newText ("<p> Magicianul întreabǎ:'Sunt unele sau toate vacile galbene?'</p>"),
+		newText ("<p> Magicianul întreabǎ:'Sunt unele sau toate vacile verzi?'</p>"),
 
-		newText ("<p> Puiul de dragon rǎspunde:'Sigur că unele vaci sunt galbene.'</p>")
+		newText ("<p> Puiul de dragon rǎspunde:'Sigur că unele vaci sunt verzi.'</p>")
 	       ,
 	        newText ("<p> Cum vei răsplăti puiul de dragon? </p>")
 		,
