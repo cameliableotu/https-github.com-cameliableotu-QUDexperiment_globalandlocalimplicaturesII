@@ -837,21 +837,13 @@ PennController("experiment" ,
 
 ;
 
-      
-        .print()
-    ,
- newText ("<p> Toţi câinii s-au dus acum în spatele cortinei. <p>")
-,
-	 newKey(" ")
-        .wait()
-)        
-	    
-;
+  
 
 PennController("experiment" ,
 	    defaultText
 	        .print()
 	       ,
+	       newText ("<p> Toţi câinii s-au dus acum în spatele cortinei. <p>"),
    newText ("<p> Puiul de dragon trebuie să descrie ale cui crede că sunt umbrele. </p>")
 	       ,
    newText ("<p> Când puiul de dragon oferă cea mai bună descriere, trebuie să-l răsplăteşti cu un măr mare. </p>"), 
