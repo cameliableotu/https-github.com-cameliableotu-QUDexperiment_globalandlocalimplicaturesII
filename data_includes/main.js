@@ -971,7 +971,6 @@ PennController ("experiment",
 		,
                 newText ("<p> Magicianul întreabǎ:'Sunt unii sau toţi câinii albaştri?'</p>"),
 		newText ("<p> Puiul de dragon rǎspunde: 'Poate că unii câini sunt albaştri.'</p>"),
-	       ,
 	        newText ("<p> Cum vei răsplati puiul de dragon? </p>")
 		,
 	       newImage("bigapple", "bigapple.png")
