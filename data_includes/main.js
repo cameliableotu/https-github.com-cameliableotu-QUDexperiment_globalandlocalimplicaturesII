@@ -331,26 +331,6 @@ PennController("introductionanimals" ,
 	       
 	      )	
 ;
-  PennController("experiment" ,
-	    defaultText
-	        .print()
-	       ,
-  newText ("<p> Hai să ne jucăm acum jocul umbrelor cu câinii. </p>"),
-	       newText ("<p> Avem două perechi de câini albaştri şi două perechi de câini galbeni. <p>")
-	       ,
-	       newImage("fourbluedogssmall", "fourbluedogssmall.png")
-        .print()
-,
-	       
-newImage("fouryellowdogssmall", "fouryellowdogssmall.png")
-        .print()
-    ,
- newText ("<p> Toţi câinii s-au dus acum în spatele cortinei. <p>")
-,
-	 newKey(" ")
-        .wait()
-)
-;
 
 PennController("experiment" ,
 	    defaultText
@@ -909,7 +889,7 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("dogshadowscenario1","dogshadowscenario1.png")
+		newImage ("dogshadowscenario3","dogshadowscenario3.png")
                .print ()
 		,
 		newText ("<p> Magicianul întreabǎ:'Sunt unii sau toţi câinii galbeni?'</p>"),
