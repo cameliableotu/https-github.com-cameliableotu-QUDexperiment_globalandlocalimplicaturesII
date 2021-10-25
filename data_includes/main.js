@@ -68,8 +68,9 @@ newText ("<p> Acum Merlin joacă jocul umbrelor cu un pui de dragon foarte drăg
 	,
 newText("<p> Imaginile vor arăta umbrele, dar şi toate animalele din joc şi animalele care se află atunci în faţa cortinei. </p>"),
 newText ("<p> Dacă nu sunt deloc animale în faţa cortinei, va fi în loc o linie. </p>")
-	       , newText ("<p> De exemplu, în imaginea de mai jos, sunt patru perechi de pisici şi niciuna din ele nu este în faţa cortinei. Toate pisicile s-au dus în spatele cortinei, dar umbrele aparţin doar a doua perechi de pisici. </p>"),
-             
+	       , newText ("<p> De exemplu, în imaginea de mai jos, sunt patru perechi de pisici şi niciuna din ele nu este în faţa cortinei.</p>"),
+		newText ("<p> Toate pisicile s-au dus în spatele cortinei, dar putem vedea numai umbrele a patru pisici. </p>"),
+   
 	  newImage ("catshadowscenario3", "catshadowscenario3.png")
 	.print (),
 	 newKey(" ")
