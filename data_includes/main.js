@@ -336,34 +336,7 @@ PennController("introductionanimals" ,
 	      )	
 ;
 
-PennController("experiment" ,
-	    defaultText
-	        .print()
-	       ,
-  newText ("<p> O pereche de câini galbeni a venit acum în faţa cortinei. <p>")  
-	       ,
-  newText ("<p> Puiul de dragon trebuie să rǎspundǎ la o întrebare despre umbre. </p>")
-	       ,
-   newText ("<p> Când puiul de dragon oferă cel mai bun rǎspuns, trebuie să-l răsplăteşti cu un măr mare. </p>"), 
-   newText ("<p> Atunci când puiul de dragon nu oferă cel mai bun rǎspuns, îi dai doar un măr mic. </p>")
-    ,
-  newImage("bigapple", "bigapple.png")
-        .settings.size(200,200)
-        // .print()
-    ,
-    newImage("smallapple", "smallapple.png")
-        .settings.size(200,200)
-        // .print()
-    ,
-    newCanvas(450,200)
-        .settings.add( 0 , 0 , getImage("bigapple") )
-        .settings.add( 250 , 0 , getImage("smallapple") )
-        .print()
-	       ,
-	       newKey(" ")
-        .wait()
-)
-;		
+
 
 PennController("experiment" ,
 	    defaultText
