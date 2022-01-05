@@ -346,7 +346,7 @@ PennController ("experiment",
 		newAudio("barking", "barking.mp3")
 		.play()
 		,
-               newText ("<p> Magicianul întreabǎ:'Sunt unii sau toţi câinii din spatele cortinei albaştri?'</p>")
+               newText ("<p> Magicianul întreabǎ:'Este posibil sau sigur că sunt câini albaştri în spatele cortinei?'</p>")
 		,
 		newText ("<p> Puiul de dragon rǎspunde:'Sigur că toţi câinii sunt albaştri.'</p>")
 	       ,
@@ -381,7 +381,7 @@ PennController ("experiment",
 		newImage ("dogshadowscenario1","dogshadowscenario1.png")
                .print ()
 		,
-		newText ("<p> Magicianul întreabǎ:'Sunt unii sau toţi câinii din spatele cortinei albaştri?'</p>")
+		  newText ("<p> Magicianul întreabǎ:'Este posibil sau sigur că sunt câini albaştri în spatele cortinei?'</p>")
 		,
 		newText ("<p> Puiul de dragon rǎspunde:'Sigur că unii câini sunt albaştri'. </p>")
 	       ,
@@ -945,7 +945,7 @@ PennController ("experiment",
 		newAudio("cowsounds2sec", "cowsounds2sec.mp3")
 		.play()
 		,
-                newText ("<p> Magicianul întreabǎ:'Sunt unele sau toate vacile din spatele cortinei galbene?'</p>"),
+                newText ("<p> Magicianul întreabǎ:'Este posibil sau sigur că sunt vaci galbene în spatele cortinei?'</p>")?'</p>"),
 		newText ("<p> Puiul de dragon rǎspunde:'Sigur că toate vacile sunt galbene'.</p>")
 	       ,
 		newText ("<p> Cum vei răsplăti puiul de dragon? </p>")
@@ -979,7 +979,7 @@ PennController ("experiment",
 		newImage ("cowshadowscenario1","cowshadowscenario1.png")
                .print ()
 		,
-		newText ("<p> Magicianul întreabǎ:'Sunt unele sau toate vacile din spatele cortinei galbene?'</p>"),
+		newText ("<p> Magicianul întreabǎ:'Este posibil sau sigur că sunt vaci galbene în spatele cortinei?'</p>"),
 	
 		newText ("<p> Puiul de dragon rǎspunde: 'Sigur că unele vaci sunt galbene.' </p>")
 	       ,
@@ -1294,7 +1294,7 @@ PennController ("experiment",
 		newAudio("frogsounds2sec", "frogsounds2sec.mp3")
 		.play()
 		,
-                newText ("<p> Magicianul întreabǎ: 'Sunt unele sau toate broaştele din spatele cortinei mov?'</p>"),
+                newText ("<p> Magicianul întreabǎ: 'Este posibil sau sigur că sunt broaşte mov în spatele cortinei?'</p>"),
 		newText ("<p> Puiul de dragon rǎspunde: 'Sigur că toate broaştele sunt mov.' </p>")
 	       ,
 		newText ("<p> Cum vei răsplăti puiul de dragon? </p>")
@@ -1431,7 +1431,7 @@ PennController ("experiment",
 		newAudio("catsounds", "catsounds.mp3")
 		.play()
 		,
-                newText ("<p> Magicianul întreabǎ:'Sunt unele sau toate pisicile din spatele cortinei albastre?'</p>"),
+                newText ("<p> Magicianul întreabǎ:'Este posibil sau sigur că sunt broaşte mov în spatele cortinei?'</p>"),
 		newText ("<p> Puiul de dragon rǎspunde:'Sigur că toate pisicile sunt albastre.' </p>")
 	       ,
 		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
@@ -1466,7 +1466,7 @@ PennController ("experiment",
                .print ()
 		,
 	
-	        newText ("<p> Magicianul întreabǎ: 'Sunt unele sau toate pisicile din spatele cortinei albastre?'</p>"),
+	        newText ("<p> Magicianul întreabǎ: 'Este posibile sau sigur că sunt pisici albastre în spatele cortinei??'</p>"),
 		newText ("<p> Puiul de dragon rǎspunde:'Sigur că unele pisici sunt albastre.' </p>")
 	       ,
 		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
