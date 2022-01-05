@@ -945,7 +945,7 @@ PennController ("experiment",
 		newAudio("cowsounds2sec", "cowsounds2sec.mp3")
 		.play()
 		,
-                newText ("<p> Magicianul întreabǎ:'Este posibil sau sigur că sunt vaci galbene în spatele cortinei?'</p>")?'</p>"),
+                newText ("<p> Magicianul întreabǎ:'Este posibil sau sigur că sunt vaci galbene în spatele cortinei?'</p>"),
 		newText ("<p> Puiul de dragon rǎspunde:'Sigur că toate vacile sunt galbene'.</p>")
 	       ,
 		newText ("<p> Cum vei răsplăti puiul de dragon? </p>")
@@ -1373,6 +1373,9 @@ PennController("experiment" ,
 	       
 )
 ;
+PennController ("experiment",
+		defaultText
+	        .print(),
 newText ("<p>  Hai acum să trecem la grupul pisicilor. </p>"),
 	       newText ("<p> Avem două perechi de pisici albastre şi două perechi de pisici roz. <p>")
 	       ,
