@@ -1434,7 +1434,7 @@ PennController ("experiment",
 		newAudio("catsounds", "catsounds.mp3")
 		.play()
 		,
-                newText ("<p> Magicianul întreabǎ:'Este posibil sau sigur că sunt broaşte mov în spatele cortinei?'</p>"),
+                newText ("<p> Magicianul întreabǎ:'Este posibil sau sigur că sunt pisici albastre în spatele cortinei?'</p>"),
 		newText ("<p> Puiul de dragon rǎspunde:'Sigur că toate pisicile sunt albastre.' </p>")
 	       ,
 		newText ("<p> Cum vei răsplati puiul de dragon? </p>")
